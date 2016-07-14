@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  DemoCareers
 //
-//  Created by 匡长春 on 16/7/14.
+//  Created by will_kuang on 16/7/14.
 //  Copyright © 2016年 KCC. All rights reserved.
 //
 
