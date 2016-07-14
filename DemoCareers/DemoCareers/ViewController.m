@@ -13,7 +13,9 @@
 @end
 
 @implementation ViewController
-
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
