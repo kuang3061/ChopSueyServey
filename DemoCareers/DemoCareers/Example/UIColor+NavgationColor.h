@@ -10,4 +10,8 @@
 
 @interface UIColor (NavgationColor)
 
+- (UIImage *)navgationSetBackImage;
+
+//- (UIImage *)navgationSetColor;
+
 @end

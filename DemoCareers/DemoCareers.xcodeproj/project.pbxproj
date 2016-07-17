@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ED7176B1D38B495009E5294 /* BaseConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED717561D38B495009E5294 /* BaseConst.m */; };
+		4ED7176C1D38B495009E5294 /* BaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7175A1D38B495009E5294 /* BaseNavgationController.m */; };
+		4ED7176D1D38B495009E5294 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7175C1D38B495009E5294 /* BaseTabBarController.m */; };
+		4ED7176E1D38B495009E5294 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7175E1D38B495009E5294 /* BaseViewController.m */; };
+		4ED7176F1D38B495009E5294 /* TechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED717611D38B495009E5294 /* TechViewController.m */; };
+		4ED717701D38B495009E5294 /* pickerList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED717651D38B495009E5294 /* pickerList.plist */; };
+		4ED717711D38B495009E5294 /* PickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED717671D38B495009E5294 /* PickViewController.m */; };
+		4ED717721D38B495009E5294 /* UIRotemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED717691D38B495009E5294 /* UIRotemController.m */; };
+		4ED7177B1D38C142009E5294 /* UIColor+NavgationColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7177A1D38C142009E5294 /* UIColor+NavgationColor.m */; };
+		4ED7177F1D38D59A009E5294 /* DrawReckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7177E1D38D59A009E5294 /* DrawReckController.m */; };
+		4ED717821D38D69C009E5294 /* DemoDrawReck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED717811D38D69C009E5294 /* DemoDrawReck.m */; };
 		B67C186F1D37D96500B2A882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C186E1D37D96500B2A882 /* main.m */; };
 		B67C18721D37D96500B2A882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C18711D37D96500B2A882 /* AppDelegate.m */; };
 		B67C18751D37D96500B2A882 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C18741D37D96500B2A882 /* ViewController.m */; };
@@ -35,6 +46,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ED717551D38B495009E5294 /* BaseConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConst.h; sourceTree = "<group>"; };
+		4ED717561D38B495009E5294 /* BaseConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConst.m; sourceTree = "<group>"; };
+		4ED717571D38B495009E5294 /* Macroe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macroe.h; sourceTree = "<group>"; };
+		4ED717591D38B495009E5294 /* BaseNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavgationController.h; sourceTree = "<group>"; };
+		4ED7175A1D38B495009E5294 /* BaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavgationController.m; sourceTree = "<group>"; };
+		4ED7175B1D38B495009E5294 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		4ED7175C1D38B495009E5294 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		4ED7175D1D38B495009E5294 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4ED7175E1D38B495009E5294 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4ED717601D38B495009E5294 /* TechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechViewController.h; sourceTree = "<group>"; };
+		4ED717611D38B495009E5294 /* TechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechViewController.m; sourceTree = "<group>"; };
+		4ED717651D38B495009E5294 /* pickerList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pickerList.plist; sourceTree = "<group>"; };
+		4ED717661D38B495009E5294 /* PickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickViewController.h; sourceTree = "<group>"; };
+		4ED717671D38B495009E5294 /* PickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickViewController.m; sourceTree = "<group>"; };
+		4ED717681D38B495009E5294 /* UIRotemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRotemController.h; sourceTree = "<group>"; };
+		4ED717691D38B495009E5294 /* UIRotemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRotemController.m; sourceTree = "<group>"; };
+		4ED717791D38C142009E5294 /* UIColor+NavgationColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NavgationColor.h"; sourceTree = "<group>"; };
+		4ED7177A1D38C142009E5294 /* UIColor+NavgationColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NavgationColor.m"; sourceTree = "<group>"; };
+		4ED7177D1D38D59A009E5294 /* DrawReckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawReckController.h; sourceTree = "<group>"; };
+		4ED7177E1D38D59A009E5294 /* DrawReckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawReckController.m; sourceTree = "<group>"; };
+		4ED717801D38D69C009E5294 /* DemoDrawReck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDrawReck.h; sourceTree = "<group>"; };
+		4ED717811D38D69C009E5294 /* DemoDrawReck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoDrawReck.m; sourceTree = "<group>"; };
 		B67C186A1D37D96500B2A882 /* DemoCareers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCareers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67C186E1D37D96500B2A882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B67C18701D37D96500B2A882 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +111,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ED717541D38B495009E5294 /* BaseConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4ED717551D38B495009E5294 /* BaseConst.h */,
+				4ED717561D38B495009E5294 /* BaseConst.m */,
+				4ED717571D38B495009E5294 /* Macroe.h */,
+			);
+			path = BaseConfig;
+			sourceTree = "<group>";
+		};
+		4ED717581D38B495009E5294 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				4ED717591D38B495009E5294 /* BaseNavgationController.h */,
+				4ED7175A1D38B495009E5294 /* BaseNavgationController.m */,
+				4ED7175B1D38B495009E5294 /* BaseTabBarController.h */,
+				4ED7175C1D38B495009E5294 /* BaseTabBarController.m */,
+				4ED7175D1D38B495009E5294 /* BaseViewController.h */,
+				4ED7175E1D38B495009E5294 /* BaseViewController.m */,
+			);
+			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		4ED7175F1D38B495009E5294 /* Technology */ = {
+			isa = PBXGroup;
+			children = (
+				4ED717601D38B495009E5294 /* TechViewController.h */,
+				4ED717611D38B495009E5294 /* TechViewController.m */,
+			);
+			path = Technology;
+			sourceTree = "<group>";
+		};
+		4ED717621D38B495009E5294 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4ED717631D38B495009E5294 /* OC */,
+				4ED7176A1D38B495009E5294 /* Swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4ED717631D38B495009E5294 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				4ED7177C1D38D57A009E5294 /* drawReck */,
+				4ED717641D38B495009E5294 /* pickView */,
+				4ED717681D38B495009E5294 /* UIRotemController.h */,
+				4ED717691D38B495009E5294 /* UIRotemController.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		4ED717641D38B495009E5294 /* pickView */ = {
+			isa = PBXGroup;
+			children = (
+				4ED717651D38B495009E5294 /* pickerList.plist */,
+				4ED717661D38B495009E5294 /* PickViewController.h */,
+				4ED717671D38B495009E5294 /* PickViewController.m */,
+			);
+			path = pickView;
+			sourceTree = "<group>";
+		};
+		4ED7176A1D38B495009E5294 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		4ED717731D38BF4E009E5294 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4ED717791D38C142009E5294 /* UIColor+NavgationColor.h */,
+				4ED7177A1D38C142009E5294 /* UIColor+NavgationColor.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		4ED7177C1D38D57A009E5294 /* drawReck */ = {
+			isa = PBXGroup;
+			children = (
+				4ED7177D1D38D59A009E5294 /* DrawReckController.h */,
+				4ED7177E1D38D59A009E5294 /* DrawReckController.m */,
+				4ED717801D38D69C009E5294 /* DemoDrawReck.h */,
+				4ED717811D38D69C009E5294 /* DemoDrawReck.m */,
+			);
+			path = drawReck;
+			sourceTree = "<group>";
+		};
 		B67C18611D37D96500B2A882 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +223,11 @@
 		B67C186C1D37D96500B2A882 /* DemoCareers */ = {
 			isa = PBXGroup;
 			children = (
+				4ED717731D38BF4E009E5294 /* Example */,
+				4ED717541D38B495009E5294 /* BaseConfig */,
+				4ED717581D38B495009E5294 /* BaseUI */,
+				4ED7175F1D38B495009E5294 /* Technology */,
+				4ED717621D38B495009E5294 /* UI */,
 				B67C18701D37D96500B2A882 /* AppDelegate.h */,
 				B67C18711D37D96500B2A882 /* AppDelegate.m */,
 				B67C18731D37D96500B2A882 /* ViewController.h */,
@@ -246,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED717701D38B495009E5294 /* pickerList.plist in Resources */,
 				B67C187D1D37D96500B2A882 /* LaunchScreen.storyboard in Resources */,
 				B67C187A1D37D96500B2A882 /* Assets.xcassets in Resources */,
 				B67C18781D37D96500B2A882 /* Main.storyboard in Resources */,
@@ -273,8 +401,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED7176B1D38B495009E5294 /* BaseConst.m in Sources */,
+				4ED717721D38B495009E5294 /* UIRotemController.m in Sources */,
+				4ED7176C1D38B495009E5294 /* BaseNavgationController.m in Sources */,
+				4ED717711D38B495009E5294 /* PickViewController.m in Sources */,
+				4ED7176F1D38B495009E5294 /* TechViewController.m in Sources */,
 				B67C18751D37D96500B2A882 /* ViewController.m in Sources */,
 				B67C18721D37D96500B2A882 /* AppDelegate.m in Sources */,
+				4ED7176D1D38B495009E5294 /* BaseTabBarController.m in Sources */,
+				4ED7176E1D38B495009E5294 /* BaseViewController.m in Sources */,
+				4ED7177B1D38C142009E5294 /* UIColor+NavgationColor.m in Sources */,
+				4ED7177F1D38D59A009E5294 /* DrawReckController.m in Sources */,
+				4ED717821D38D69C009E5294 /* DemoDrawReck.m in Sources */,
 				B67C186F1D37D96500B2A882 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +639,7 @@
 				B67C18991D37D96500B2A882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67C189A1D37D96500B2A882 /* Build configuration list for PBXNativeTarget "DemoCareersTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +648,7 @@
 				B67C189C1D37D96500B2A882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67C189D1D37D96500B2A882 /* Build configuration list for PBXNativeTarget "DemoCareersUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +657,7 @@
 				B67C189F1D37D96500B2A882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

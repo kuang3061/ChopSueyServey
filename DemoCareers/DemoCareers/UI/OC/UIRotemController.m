@@ -8,6 +8,7 @@
 
 #import "UIRotemController.h"
 #import "PickViewController.h"
+#import "DrawReckController.h"
 
 
 @interface UIRotemController ()<UITableViewDelegate,UITableViewDataSource>
@@ -57,6 +58,12 @@
             [self.navigationController pushViewController:picker animated:YES];
         }
             break;
+        case 1:
+        {
+            DrawReckController *draw = [[DrawReckController alloc] init];
+            [self.navigationController pushViewController:draw animated:YES];
+        }
+            break;
             
         default:
             break;
@@ -74,7 +81,7 @@
 }
 - (NSArray *)rotemListArray {
     if (!_rotemListArray) {
-        _rotemListArray = @[@"UIPickerView"];
+        _rotemListArray = @[@"UIPickerView",@"DrawReckController"];
     }
     return _rotemListArray;
 }

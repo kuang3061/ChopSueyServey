@@ -10,4 +10,15 @@
 
 @implementation UIColor (NavgationColor)
 
+- (UIImage *)navgationSetBackImage {
+    UIGraphicsBeginImageContext(CGSizeMake(1, 1));
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextAddRect(context, CGRectMake(0, 0, 1, 1));
+    [self set];
+    CGContextFillPath(context);
+    UIImage *grahocsImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return grahocsImage;
+}
+
 @end

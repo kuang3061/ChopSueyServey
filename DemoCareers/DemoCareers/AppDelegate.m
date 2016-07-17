@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseTabBarController.h"
+#import "BaseNavgationController.h"
+#import "ViewController.h"
+#import "TechViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    self.window.rootViewController = [self loadViewController];
     return YES;
 }
 
@@ -41,6 +45,24 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BaseTabBarController *)loadViewController {
+    
+    BaseTabBarController *tabBar = [[BaseTabBarController alloc] init];
+    ViewController *firestVC = [[ViewController alloc] init];
+    TechViewController *secondeVC = [[TechViewController alloc] init];
+    
+    BaseNavgationController *baseNavFirest = [[BaseNavgationController alloc] initWithRootViewController:firestVC];
+    BaseNavgationController *baseNavSeconde = [[BaseNavgationController alloc] initWithRootViewController:secondeVC];
+    NSArray *VCArray = [NSArray arrayWithObjects:baseNavFirest,baseNavSeconde, nil];
+    
+    tabBar.viewControllers = VCArray;
+    
+    baseNavFirest.title = @"test1";
+    baseNavSeconde.title = @"test2";
+    
+    return tabBar;
 }
 
 @end
