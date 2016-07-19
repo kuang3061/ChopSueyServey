@@ -1,0 +1,16 @@
+{
+    "data":[
+            {
+            "avatar": "http://js.a.yximgs.com/uhead/AB/2015/02/10/01/BMjAxNTAyMTAwMTI1NTlfNTEyODAzNjZfMV9oZDY5.jpg",
+            "nickname": "℉菲儿",
+            "content": "'放开那只兔宝贝",
+            "type": "video",
+            "resources":[
+                         {"image_url": "http://ws.a.yximgs.com/upic/2016/07/01/09/BMjAxNjA3MDEwOTMzNTdfNTEyODAzNjZfODU1Nzk4MDQ0XzFfMw==.jpg",
+                         "video_url": "http://ws.a.yximgs.com/upic/2016/07/01/09/BMjAxNjA3MDEwOTMzNTdfNTEyODAzNjZfODU1Nzk4MDQ0XzFfMw==.mp4",
+                         "width": 480,
+                         "height": 640}
+                         ]
+            }
+    ]
+}

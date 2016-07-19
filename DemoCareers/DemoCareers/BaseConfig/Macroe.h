@@ -6,6 +6,7 @@
 //  Copyright © 2016年 farben_cc. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #ifndef Macroe_h
 #define Macroe_h
 
@@ -13,5 +14,8 @@
 
 #define KDevWidth  [[UIScreen mainScreen] bounds].size.width
 #define KDevHeight [[UIScreen mainScreen] bounds].size.height
+
+typedef void(^NewVideoBlock)(CGImageRef imageRef, NSString *fileURL);
+typedef void(^finshVideoBlock)(NSString *path);
 
 #endif /* Macroe_h */

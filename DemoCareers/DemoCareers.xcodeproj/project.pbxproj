@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		4EB500561D3CD5800033B450 /* VideoDrawOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB500551D3CD5800033B450 /* VideoDrawOperation.m */; };
 		4EB500581D3CE3A20033B450 /* 仿朋友圈-绘制方法代码.zip in Resources */ = {isa = PBXBuildFile; fileRef = 4EB500571D3CE3A20033B450 /* 仿朋友圈-绘制方法代码.zip */; };
+		4EB5005A1D3DD1B90033B450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB500591D3DD1B90033B450 /* CoreGraphics.framework */; };
+		4EB5005C1D3DD1C00033B450 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB5005B1D3DD1C00033B450 /* ImageIO.framework */; };
+		4EB5005F1D3DD24E0033B450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB5005E1D3DD24E0033B450 /* Foundation.framework */; };
+		4EB500611D3DD2610033B450 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB500601D3DD2610033B450 /* MobileCoreServices.framework */; };
+		4EB500631D3DD2750033B450 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB500621D3DD2750033B450 /* SystemConfiguration.framework */; };
+		4EB500651D3DD2820033B450 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB500641D3DD2820033B450 /* Security.framework */; };
+		4EB500671D3E21C90033B450 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB500661D3E21C90033B450 /* data.json */; };
+		4EB5006B1D3E2E710033B450 /* VideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5006A1D3E2E710033B450 /* VideoManager.m */; };
 		4ED7176B1D38B495009E5294 /* BaseConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED717561D38B495009E5294 /* BaseConst.m */; };
 		4ED7176C1D38B495009E5294 /* BaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7175A1D38B495009E5294 /* BaseNavgationController.m */; };
 		4ED7176D1D38B495009E5294 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7175C1D38B495009E5294 /* BaseTabBarController.m */; };
@@ -52,6 +60,16 @@
 		4EB500541D3CD5800033B450 /* VideoDrawOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDrawOperation.h; sourceTree = "<group>"; };
 		4EB500551D3CD5800033B450 /* VideoDrawOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDrawOperation.m; sourceTree = "<group>"; };
 		4EB500571D3CE3A20033B450 /* 仿朋友圈-绘制方法代码.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "仿朋友圈-绘制方法代码.zip"; sourceTree = "<group>"; };
+		4EB500591D3DD1B90033B450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EB5005B1D3DD1C00033B450 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4EB5005E1D3DD24E0033B450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EB500601D3DD2610033B450 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4EB500621D3DD2750033B450 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4EB500641D3DD2820033B450 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4EB500661D3E21C90033B450 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../data.json; sourceTree = "<group>"; };
+		4EB500681D3E2AAD0033B450 /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+		4EB500691D3E2E710033B450 /* VideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoManager.h; sourceTree = "<group>"; };
+		4EB5006A1D3E2E710033B450 /* VideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoManager.m; sourceTree = "<group>"; };
 		4ED717551D38B495009E5294 /* BaseConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConst.h; sourceTree = "<group>"; };
 		4ED717561D38B495009E5294 /* BaseConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConst.m; sourceTree = "<group>"; };
 		4ED717571D38B495009E5294 /* Macroe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macroe.h; sourceTree = "<group>"; };
@@ -98,6 +116,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB500651D3DD2820033B450 /* Security.framework in Frameworks */,
+				4EB500631D3DD2750033B450 /* SystemConfiguration.framework in Frameworks */,
+				4EB500611D3DD2610033B450 /* MobileCoreServices.framework in Frameworks */,
+				4EB5005F1D3DD24E0033B450 /* Foundation.framework in Frameworks */,
+				4EB5005C1D3DD1C00033B450 /* ImageIO.framework in Frameworks */,
+				4EB5005A1D3DD1B90033B450 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +142,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EB5005D1D3DD2250033B450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB500641D3DD2820033B450 /* Security.framework */,
+				4EB500621D3DD2750033B450 /* SystemConfiguration.framework */,
+				4EB500601D3DD2610033B450 /* MobileCoreServices.framework */,
+				4EB5005E1D3DD24E0033B450 /* Foundation.framework */,
+				4EB5005B1D3DD1C00033B450 /* ImageIO.framework */,
+				4EB500591D3DD1B90033B450 /* CoreGraphics.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		4ED717541D38B495009E5294 /* BaseConfig */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +242,8 @@
 				4ED717811D38D69C009E5294 /* DemoDrawReck.m */,
 				4EB500541D3CD5800033B450 /* VideoDrawOperation.h */,
 				4EB500551D3CD5800033B450 /* VideoDrawOperation.m */,
+				4EB500691D3E2E710033B450 /* VideoManager.h */,
+				4EB5006A1D3E2E710033B450 /* VideoManager.m */,
 				4ED717831D3C7141009E5294 /* picture */,
 			);
 			path = drawReck;
@@ -213,6 +252,8 @@
 		4ED717831D3C7141009E5294 /* picture */ = {
 			isa = PBXGroup;
 			children = (
+				4EB500681D3E2AAD0033B450 /* testVideo.mp4 */,
+				4EB500661D3E21C90033B450 /* data.json */,
 				4ED717841D3C7141009E5294 /* myCard_top@2x.png */,
 			);
 			path = picture;
@@ -255,6 +296,7 @@
 				B67C18791D37D96500B2A882 /* Assets.xcassets */,
 				B67C187B1D37D96500B2A882 /* LaunchScreen.storyboard */,
 				B67C187E1D37D96500B2A882 /* Info.plist */,
+				4EB5005D1D3DD2250033B450 /* Frameworks */,
 				B67C186D1D37D96500B2A882 /* Supporting Files */,
 			);
 			path = DemoCareers;
@@ -393,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ED717851D3C7141009E5294 /* myCard_top@2x.png in Resources */,
+				4EB500671D3E21C90033B450 /* data.json in Resources */,
 				4ED717701D38B495009E5294 /* pickerList.plist in Resources */,
 				4EB500581D3CE3A20033B450 /* 仿朋友圈-绘制方法代码.zip in Resources */,
 				B67C187D1D37D96500B2A882 /* LaunchScreen.storyboard in Resources */,
@@ -436,6 +479,7 @@
 				4ED7177F1D38D59A009E5294 /* DrawReckController.m in Sources */,
 				4ED717821D38D69C009E5294 /* DemoDrawReck.m in Sources */,
 				B67C186F1D37D96500B2A882 /* main.m in Sources */,
+				4EB5006B1D3E2E710033B450 /* VideoManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
